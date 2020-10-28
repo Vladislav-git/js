@@ -2,8 +2,8 @@
 
 let num = 33721;
 let num1 = num % 10;
-let num2 = Math.round((num / 10) % 10)
-let num3 = Math.round((num / 100) % 10);
+let num2 = Math.round(num / 10) % 10
+let num3 = Math.round(num / 100) % 10;
 let num4 = Math.floor(num / 1000) % 10;
 let num5 = Math.floor(num / 1000) % 10;
 
